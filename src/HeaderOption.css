@@ -1,0 +1,34 @@
+.headerOption{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin-right: 20px;
+    color:gray;
+    cursor:pointer;
+}
+.headerOption:hover {
+    color: black
+}
+.header_right{
+    display:flex;
+    justify-content: space-evenly;
+    padding-top:10px;
+    padding-bottom: 10px;
+    width: 100% ;
+}
+.header_left{
+    display:flex
+}
+.header__left > img {
+    object-fit: contain;
+   
+}
+.headerOption_title{
+    font-size: 12px;
+    font-weight: 400;
+}
+.headerOption_icon{
+    object-fit: contain;
+    height:25px !important;
+    width: 25px !important ;
+}
